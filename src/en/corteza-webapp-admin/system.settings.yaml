@@ -42,29 +42,45 @@ editor:
         expires:
           description: How long will password be valid before it expires.
           label: Valid for
+
   external:
     title: External Authentication Providers
-    addOidcProvider: Add OIDC provider
-    certificate: Certificate
-    clientKey: Client key
-    clientSecret: Secret
     enabled: Enable external authentication
-    facebook: Facebook
-    github: GitHub
-    google: Google
-    handle: Handle
-    issuer: OIDC Issuer URL
-    issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
-    issuerPlaceholder: https://issuer.tld
-    linkedin: LinkedIn
-    oidc: OpenID Connect
-    providerEnabled: Enable
+
+    table:
+      header:
+        provider: Provider
+        info: Issuer, client ID
+
+
+    standard:
+      enabled: Enabled
+      clientKey: Client key
+      clientSecret: Secret
+
+    oidc:
+      add: Add an OIDC provider
+      enabled: Enabled
+      handle: Handle
+      title: OpenID Connect
+      issuer: OIDC Issuer URL
+      issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
+      clientKey: Client key
+      clientSecret: Secret
 
     saml:
+      enabled: Enabled
       title: SAML
       cert: Public key
       cert-key: Private key
       name: Name
+      certificate: Certificate
+      idp:
+        title: Identity provider
+        ident-handle: Handle field
+        ident-identifier: Identifier field
+        ident-name: Name field
+        url: URL
       desc:
         name: IdP name used on the login screen (Login with <name>)
         cert: Content will be minimized
@@ -74,9 +90,15 @@ editor:
           ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
           ident-identifier: Name of the IdP field used for filling and matching Corteza user email
           ident-name: Name of the IdP field used for filling Corteza user full name
-      idp:
-        title: Identity provider
-        ident-handle: Handle field
-        ident-identifier: Identifier field
-        ident-name: Name field
-        url: URL
+
+
+    security:
+      forbidden-roles:
+        description: Roles from this list will be removed from security context when authenticates with this provider
+        label: Forbidden roles
+      forced-roles:
+        description: Roles from this list will be always added to security context when authenticates with this provider
+        label: Forced roles
+      permitted-roles:
+        description: Only roles in this list will be added into security context when authenticates with this provider
+        label: Permitted roles
