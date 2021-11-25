@@ -67,6 +67,8 @@ editor:
       issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
       clientKey: Client key
       clientSecret: Secret
+      scope: Scope
+      scopeHint: List out supported OAuth scope values, use space delimited string
 
     saml:
       enabled: Enabled
