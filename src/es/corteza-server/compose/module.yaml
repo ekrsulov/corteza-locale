@@ -1,0 +1,18 @@
+errors:
+  handleNotUnique: identificador no es único
+  invalidHandle: identificador no es valido
+  invalidID: ID no es valido
+  invalidNamespaceID: ID de namespace no válido o faltante
+  nameNotUnique: nombre no es único
+  fieldNameReserved: nombre del campo es resevado
+  namespaceNotFound: namespace no existe
+  notAllowedToCreate: no se permite crear módulos
+  notAllowedToDelete: no se permite borrar este módulos
+  notAllowedToListModules: no se permite listar módulos
+  notAllowedToRead: no se permite leer este módulo
+  notAllowedToReadNamespace: no se permite leer este namespace
+  notAllowedToSearch: no se permite buscar o listar módulos
+  notAllowedToUndelete: no se permite recuperar este módulo
+  notAllowedToUpdate: no se permite actualizar este módulo
+  notFound: módulo no existe
+  staleData: datos obsoletos
