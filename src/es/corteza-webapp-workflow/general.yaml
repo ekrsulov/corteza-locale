@@ -1,0 +1,22 @@
+description: Descripción
+enabled: Activado
+error: Error
+'error-expression': Error message(expression)
+export: Exportar
+general: General
+handle: Identificador
+import:
+  json: Importar JSON
+  label: Importar
+  'reassign-run-as': "NOTA: la propiedad de flujo de trabajo Ejecutar como no se importará y debe reasignarse"
+  'upload-files': Examinar o soltar archivos para cargar ...
+label: Etiqueta
+name: Nombre
+'new-workflow': Nuevo Workflow 
+offset: Offset
+permissions: Permisos
+'search-workflows': Escriba aquí para buscar todos los workflows...
+'unnamed-workflow': Workflow sin nombre
+'workflow-list': Lista de Workflows
+save: Guardar
+cancel: Cancelar
