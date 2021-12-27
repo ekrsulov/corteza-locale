@@ -1,0 +1,22 @@
+template:
+  title: Iniciar sesión
+  form:
+    email:
+      label: E-mail
+      placeholder: email@domain.ltd
+    password:
+      label: Contraseña
+      placeholder: contraseña
+    button:
+       login-and-remember: Inicia sesión y recuérdame
+       login: Iniciar sesión
+       continue: Continuar
+  links:
+    request-password-reset: ¿Olvidaste tu contraseña?
+    signup: Crea una cuenta nueva
+    external:
+      login-with: Inicia con {{idp}}
+
+alerts:
+  logged-in: Ahora está conectado.
+  local-disabled: Cuentas locales inhabilitadas
