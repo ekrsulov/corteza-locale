@@ -1,0 +1,14 @@
+notification:
+  search-error: Hubo un problema al obtener el resultado de la búsqueda
+input-placeholder: Ingrese el texto de búsqueda
+search-results: Resultados de la búsqueda
+card: 
+  button-text: Mostrar más
+  type: Tipo
+  handle: Identificador
+  namespace: Namespace
+  module: Módulo
+  user: Usuario
+  email: Email
+  record: Registro
+  fields: Campos
