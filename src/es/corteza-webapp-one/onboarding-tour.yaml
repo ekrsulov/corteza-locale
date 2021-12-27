@@ -1,0 +1,31 @@
+start:
+  welcome: Bienvenido a Corteza
+  instructions: ¡Hola! Ha creado con éxito su cuenta de Corteza. ¿Estas listo para empezar? Haga clic en el botón "Muéstrame" a continuación para obtener una guía rápida a través de las funciones básicas.
+  skip: Omitir recorrido
+  show: Muéstrame
+
+buttons:
+  skip: Omitir recorrido
+  previous: Volver
+  next: Próximo
+  end: Finalizar
+
+steps:
+  app-list:
+    title: Menú de aplicaciones
+    content: This is where you can see the list of available applications. When in an application, you can always return to this list by clicking on the 6-dots icon in the top right corner.
+  crm:
+    title: Ejemplo de namespace: CRM
+    content:  Aquí puede acceder a CRM, un ejemplo de configuración de código bajo. Puede navegar por la aplicación desde la barra lateral de la izquierda, donde verá una lista de páginas disponibles. Para insertar un dato de ejemplo, haga clic en un botón "+ Agregar" en cualquier lista de registros.
+  low-code:
+    title: Lista de aplicaciones Low-Code (namespaces)
+    content: Aquí puede crear una nueva aplicación Low-Code (espacio de nombres) o comenzar a trabajar en algunas aplicaciones preconfiguradas (por ejemplo, CRM). Estas aplicaciones no aparecen en el menú de aplicaciones de forma predeterminada.
+  reporter:
+    title: Lista de informes
+    content: Para crear vistas de tablero avanzadas con datos agregados de varios módulos, diferentes tablas y gráficos, comience a crear un nuevo informe.
+  profile:
+    title: Configuración de perfil
+    content: Para actualizar la configuración de su perfil, establecer el idioma, cambiar la contraseña o configurar la autenticación de 2 factores, siga el enlace debajo del icono de usuario.
+  workflow:
+    title: Lista de Workflows
+    content: Lleve sus aplicaciones Low-Code al siguiente nivel con el generador de flujo de trabajo visual, donde puede automatizar cualquier proceso para cubrir las necesidades de su organización. Empiece a crear un nuevo flujo de trabajo o revise los existentes.
