@@ -1,0 +1,9 @@
+errors:
+  failedToExtractMimeType: no se pudo extraer el mime-type
+  failedToProcessImage: no se pudo procesar la imagen
+  failedToStoreFile: no se pudo almacenar el archivo
+  invalidID: ID invalido
+  notAllowedToCreate: no se permite crear archivos adjuntos
+  notAllowedToCreateEmptyAttachment: no se permite crear archivos adjuntos vacíos
+  notAllowedToListAttachments: no se permite listar archivos adjuntos
+  notFound: adjunto no encontrado
