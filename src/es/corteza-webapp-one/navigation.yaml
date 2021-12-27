@@ -1,0 +1,20 @@
+adminPanel: Panel de administrador
+automation: Automatización
+chart: Gráficos
+configuration: Configuración
+help:
+  documentation: Documentación
+  feedback: Envíe sus comentarios
+  forum: Ayuda
+  version: 'Versión:'
+module: Módulos
+more: Más
+namespace: Namespaces
+noPageTitle: Sin título de página
+page: Páginas
+publicPages: Páginas públicas
+userSettings:
+  changePassword: Cambia la contraseña
+  loggedInAs: Conectado como {{user}}
+  logout: Cerrar sesión
+  profile: Perfil
