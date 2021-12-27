@@ -1,0 +1,15 @@
+errors:
+  handleNotUnique: identificador del rol no es único
+  invalidHandle: identificador inválido
+  invalidID:  ID inválido
+  nameNotUnique: nombre del rol no es único
+  notAllowedToArchive: no se permite archivar este rol
+  notAllowedToCreate: no se permite crear roles
+  notAllowedToDelete: no se permite eliminar este rol
+  notAllowedToManageMembers: no se permite administrar miembros del rol
+  notAllowedToRead: no se permite leer este rol
+  notAllowedToSearch: no se permite buscar o listar roles
+  notAllowedToUnarchive: no se permite desarchivar este rol
+  notAllowedToUndelete: no se permite recuperar este rol
+  notAllowedToUpdate: no se le permite actualizar este rol
+  notFound: rol no encontrado
