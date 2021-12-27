@@ -1,0 +1,6 @@
+errors:
+  invalidID: ID inválido
+  notAllowedToAssign: no se permite asignar recordatorios a otros usuarios
+  notAllowedToDismiss: no se permite descartar recordatorios de otros usuarios
+  notAllowedToRead: no se permite leer recordatorios de otros usuarios
+  notFound: recordatorio no encontrado
