@@ -1,0 +1,4 @@
+template:
+  title: Confirme su email
+  instructions: Debería recibir el enlace de confirmación por correo electrónico en su bandeja de entrada en unos momentos.
+  links: <a href="{{signup}}">Crear una nueva cuenta</a> o <a href="{{login}}">iniciar sesión</a>.
