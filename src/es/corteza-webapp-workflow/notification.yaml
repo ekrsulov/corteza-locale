@@ -1,0 +1,35 @@
+'configure-triggers': Asegúrese de que todos los pasos de activación estén configurados correctamente
+'confirm-unsaved-changes': Tiene cambios sin guardar, ¿está seguro de que desea salir?
+'delete-failed': No se pudo borrar el workflow
+'deleted-workflow': Workflow eliminado
+error: " - ERROR: "
+'event-type-not-found': Tipo de evento no encontrado
+'event-type-fetch-failed': No se pudieron recuperar los tipos de eventos
+'failed-fetch-functions': No se pudieron recuperar las funciones
+'failed-fetch-triggers': No se pudieron recuperar los triggers
+'failed-fetch-workflow': No se pudo recuperar el workflow
+'failed-fetch-workflows': No se pudo recuperar los workflows
+'failed-load-file': No se pudo cargar el archivo
+'failed-save': Error al guardar
+'failed-test': Prueba fallida
+'fetch-types-failed': No se pudieron recuperar los tipos
+general:
+  error: Error
+  success: Éxito
+  warning: Advertencia
+import:
+  'failed-import': No se pudo importar
+  'imported-workflows': Workflows importados
+  'skipped-workflows': Workflows omitidos
+'imported-workflow': Workflow importado
+'import-failed': Importación fallida
+'initial-scope-load-failed': No se pudo cargar el alcance inicial
+'resolve-issues': Resolver problemas para probar workflow
+'save-workflow': Primero guarde el workflow para probarlo
+'started-test': Se inició la prueba del workflow
+'test-completed': Prueba completada
+'test-in-progress': Prueba en progreso
+'trace-unavailable': Traza no disponible
+'trigger-paths-changed': Trigger paths cambiado
+'updated-workflow': Workflow actualizado
+'workflow-test-completed': Prueba del workflow completada
