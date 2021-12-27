@@ -1,0 +1,16 @@
+errors:
+  disabled: flujo de trabajo deshabilitado o disparador
+  handleNotUnique: el control del flujo de trabajo no es único
+  invalidHandle: identificador no válido
+  invalidID: identificación invalida
+  notAllowedToCreate: no se permite crear workflow
+  notAllowedToDelete: no se permite eliminar este workflow
+  notAllowedToExecute: no se permite ejecutar este workflow
+  notAllowedToExecuteCorredorStep: no se permite ejecutar función corredorExec, corredor está deshabilitado
+  notAllowedToRead: no se le permite leer este workflow
+  notAllowedToSearch: no se permite buscar o enumerar workflow
+  notAllowedToUndelete: no se permite recuperar este workflow
+  notAllowedToUpdate: no se le permite actualizar este workflow
+  notFound: workflow no encontrado
+  staleData: datos obsoletos
+  unknownWorkflowStep: paso de flujo de trabajo desconocido
