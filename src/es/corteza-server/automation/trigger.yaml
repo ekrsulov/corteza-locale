@@ -1,0 +1,10 @@
+errors:
+  invalidID: identificación invalida
+  notAllowedToCreate: no se permite crear disparadores
+  notAllowedToDelete: no se permite eliminar este disparador
+  notAllowedToRead: no se le permite leer este disparador
+  notAllowedToSearch: no se permite buscar o enumerar disparadores
+  notAllowedToUndelete: no se permite recuperar este disparador
+  notAllowedToUpdate: no se le permite actualizar este disparador
+  notFound: disparador no encontrado
+  staleData: datos obsoletos
