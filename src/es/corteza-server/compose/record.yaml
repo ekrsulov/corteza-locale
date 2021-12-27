@@ -1,0 +1,24 @@
+errors:
+  fieldNotFound: no hay tal campo {field}
+  importSessionAlreadActive: sesión de importación ya está activa
+  invalidID: ID invalido
+  invalidModuleID: ID de módulo no válido o faltante
+  invalidNamespaceID: ID de namespace no válido o faltante
+  invalidReferenceFormat: formato de referencia no válido
+  invalidValueStructure: más de un valor para un campo de valor único {field}
+  moduleNotFoundModule: módulo no encontrado
+  namespaceNotFound: namespace no encontrado
+  notAllowedToChangeFieldValue: no se permite cambiar el valor del campo {field}
+  notAllowedToCreate: no se permite crear registros
+  notAllowedToDelete: no se permite borrar este registro
+  notAllowedToListRecords: no se permite listar registros
+  notAllowedToRead: no se permite leer este registro
+  notAllowedToReadModule: no se permite leer el módulo
+  notAllowedToReadNamespace: no se permite leer este namespace
+  notAllowedToSearch: no se permite buscar o listar registros
+  notAllowedToUndelete: no se permite recuperar este registro
+  notAllowedToUpdate: no se permite actualizar este registro
+  notFound: el registro no existe
+  staleData: datos obsoletos
+  unknownBulkOperation: operación masiva desconocida {bulkOperation}
+  valueInput: entrada de valor de registro no válido
