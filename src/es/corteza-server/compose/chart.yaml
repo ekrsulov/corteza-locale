@@ -9,7 +9,7 @@ errors:
   notAllowedToDelete: no se permite borrar este gráfico
   notAllowedToRead: no se permite leer este gráfico
   notAllowedToReadNamespace: no se permite borrar este namespace
-  notAllowedToSearch: no se permite buscar o listar este gráfico
+  notAllowedToSearch: no se permite buscar o listar gráficos
   notAllowedToUndelete: no se permite recuperar este gráfico
   notAllowedToUpdate: no se permite actualizar este gráfico
   notFound: el gráfico no existe
