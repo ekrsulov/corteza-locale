@@ -1,0 +1,14 @@
+template:
+  title: Autorizar
+  form:
+    greeting-paragraph: Hola
+    question-for-client: quisiera realizar acciones en este servidor de Corteza en su nombre.
+    buttons:
+      allow: Permitir
+      deny: Negar
+  links:
+    mistake: Si esto es un error, por favor <a href="{{link}}">cerrar sesión</a>.
+  errors:
+    invalid-user: No se puede continuar con un correo electrónico no autorizado, visite <a href="{{link}}">tu perfil</a> y resuelve el problema.
+alerts:
+  denied: no puedo autorizar {{client}}, sin permisos.
