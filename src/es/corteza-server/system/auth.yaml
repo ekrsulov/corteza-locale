@@ -1,0 +1,25 @@
+errors:
+  credentialsLinkedToInvalidUser: credenciales {credentials.kind} vinculado a un usuario desactivado o eliminado {user}
+  disabledMFAWithEmailOTP: la autenticación multifactor con correo electrónico OTP está deshabilitada
+  disabledMFAWithTOTP: la autenticación multifactor con TOTP está deshabilitada
+  enforcedMFAWithEmailOTP: La OTP por correo electrónico se aplica y no se puede deshabilitar
+  enforcedMFAWithTOTP: TOTP se aplica y no se puede inhabilitar
+  externalDisabledByConfig: la autenticación externa (utilizando un proveedor de autenticación externo) está deshabilitada
+  failedUnconfirmedEmail: el sistema requiere un correo electrónico confirmado antes de iniciar sesión
+  internalLoginDisabledByConfig: el inicio de sesión interno (nombre de usuario / contraseña) está deshabilitado
+  internalSignupDisabledByConfig: el registro interno (nombre de usuario / contraseña) está deshabilitado
+  invalidCredentials: combinación de nombre de usuario y contraseña no válida
+  invalidEmailFormat: email inválido
+  invalidEmailOTP: codigo invalido
+  invalidHandle: identificador no válido
+  invalidTOTP: codigo invalido
+  invalidToken: token invalido
+  notAllowedToConfigureTOTP: no se permite configurar TOTP
+  notAllowedToImpersonate: no se permite hacerse pasar por este usuario
+  notAllowedToRemoveTOTP: no se permite eliminar TOTP
+  passwodResetFailedOldPasswordCheckFailed: no se pudo cambiar la contraseña, la contraseña anterior no coincide
+  passwordChangeFailedForUnknownUser: no se pudo cambiar la contraseña del usuario desconocido
+  passwordNotSecure: la contraseña proporcionada no es segura; use una contraseña más larga con más caracteres especiales
+  passwordResetDisabledByConfig: el restablecimiento de contraseña está deshabilitado
+  profileWithoutValidEmail: el proveedor de autenticación externo devolvió el perfil sin un correo electrónico válido
+  unconfiguredTOTP: TOTP no configurado
