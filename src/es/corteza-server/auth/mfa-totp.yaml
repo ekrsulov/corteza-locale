@@ -1,0 +1,26 @@
+template:
+  title: Configurar la autenticación de dos factores con TOTP
+  enforced: |
+    El administrador de Corteza aplica la autenticación de múltiples factores TOTP.
+    Configúrelo de inmediato.
+
+  instructions: |
+    Corteza utiliza contraseñas de un solo uso basadas en el tiempo (TOTP) como una de las tecnologías subyacentes para la autenticación de dos factores. Utilice una de las aplicaciones que se enumeran a continuación y escriba el secreto o escanee el código QR.
+    <br />
+    <br />
+    Esto habilitará seguridad adicional para su cuenta.
+    <br />
+    <br />
+    Puede utilizar una de las siguientes aplicaciones:
+
+  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
+  gauth: Google Authenticator para <a target="_blank" href="{{ android }}">Android</a> o <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
+
+  form:
+    title: "Complete la configuración ingresando el código de la aplicación de autenticación:"
+    button: Entregar
+
+alerts:
+  text-2FA-enabled: Autenticación de dos factores con TOTP habilitado
+  text-2FA-disabled: Autenticación de dos factores con TOTP deshabilitado
