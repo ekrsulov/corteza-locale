@@ -1,0 +1,20 @@
+template:
+  title: Tu perfil
+  form:
+    email:
+      label: Email
+      placeholder: email@domain.ltd
+      resend-confirmation-link: Email no está verificado, <a href="{{link}}?resend">re enviar enlace de confirmación.</a>
+    name:
+      label: Nombre completo
+      placeholder: Tu nombre completo
+    handle:
+      label: Identificador
+      placeholder: Nombre corto, apodo o identificador
+    preferred-language:
+      label: Idioma preferido
+    buttons:
+      submit: Actualizar el perfil
+alerts:
+  profile-updated: Perfil actualizado correctamente.
+  profile-update-fail: No se pudo actualizar el perfil debido a errores de entrada
